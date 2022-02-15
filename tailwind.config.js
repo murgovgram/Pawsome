@@ -5,14 +5,16 @@ module.exports = {
       'pinklight': '#FFEFE3',
       'orangedark': '#E25B01',
       'orangelight': '#FF6600',
-      'portocal': '#FCA554',
+      'portokal': '#FCA554',
       'greendark': '#498248',
     },
     fontFamily: {
       Inter: ['inter', 'sans-serif'],
       ProzaLibre: ['ProzaLibre', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { Tablet }
