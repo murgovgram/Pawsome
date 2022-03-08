@@ -13,6 +13,9 @@ module.exports = {
         Inter: ['inter', 'sans-serif'],
         ProzaLibre: ['Proza Libre', 'sans-serif'],
       },
+      backgroundImage: {
+        'wall-1': "url('src/images/wall-1.png')",
+      },
     },
     screens: {
       'sm': '640px',

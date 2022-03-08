@@ -7,18 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
   <link rel="stylesheet" href="/dist/output.css">
-</head>
+  <script src="slider.js"></script>
 
 <body class="font-ProzaLibre">
 
   <!-- Header -->
   <div class="shadow-md">
-    <div class="grid grid-cols-10 px-4 mx-auto max-w-screen-2xl md:px-24 ">
-      <div class="flex col-span-2">
-        <img class="py-3 my-auto md:py-0 w-28" src="images/pawsome-logo.png" alt="">
+    <div class="flex justify-between px-4 mx-auto max-w-screen-2xl md:px-24">
+      <div class="flex justify-start block my-auto md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 20 20" fill="#498248">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd" />
+        </svg>
       </div>
-      <div class="flex hidden col-span-6 my-auto md:block md:justify-center ">
-        <ul class="justify-center my-auto text-sm font-medium cursor-pointer md:flex">
+      <div class="flex justify-start">
+        <img class="justify-start py-3 my-auto md:py-0 w-28" src="images/pawsome-logo.png" alt="">
+      </div>
+      <div class="flex hidden my-auto md:block md:justify-center ">
+        <ul class="justify-center my-auto text-sm font-thin font-medium cursor-pointer md:flex">
           <li class="px-5 py-6 my-auto " href="">Reviews</li>
           <li class="px-5 py-6 my-auto " href="">Blog</li>
           <li class="px-5 py-6 my-auto " href="">Deals</li>
@@ -26,7 +33,7 @@
           <li class="px-5 py-6 my-auto " href="">About Us</li>
         </ul>
       </div>
-      <div class="flex justify-end col-span-2 my-auto">
+      <div class="flex justify-end my-auto">
         <svg class="justify-end w-8 h-8 p-2 bg-gray-100 rounded-md" xmlns="http://www.w3.org/2000/svg" width="22.272"
           height="22.932" viewBox="0 0 22.272 22.932">
           <path id="Path_69" data-name="Path 69"
@@ -34,15 +41,55 @@
             fill="#c1c1c1" />
         </svg>
       </div>
-      <div class="flex justify-end block my-auto md:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd" />
-        </svg>
+    </div>
+  </div>
+
+
+
+  <!--Heading-->
+  <div class="relative">
+    <div class="grid px-4 mx-auto xl:grid-cols-2 max-w-screen-2xl md:px-24">
+      <div class="py-16 my-auto md:py-40">
+        <h1 class="py-8 text-6xl font-medium">Expert advice for your <span class="text-orangelight">best</span> friends
+        </h1>
+        <p class="font-Inter">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <br>Quisque sed imperdiet tellus, a tincidunt mi. Proin id est lacus.
+        </p>
+      </div>
+      <div class="hidden xl:block">
+        <img class="absolute top-0 right-0 overflow-hidden" src="images/heading-dog.png" alt="">
       </div>
     </div>
   </div>
+
+
+  <div class="grid h-auto mx-auto mt-24 xl:mt-56" style="background-image: url(images/wall-1.png);">
+    <div class="mx-auto -mt-6 ">
+      <h1 class="px-8 py-4 text-4xl bg-white border border-gray-100 rounded-lg shadow-xl text-greendark">Best Pages</h1>
+    </div>
+
+    <div class="px-4 md:px-24 max-w-screen-2xl">
+      <div class="grid grid-cols-3">
+        <div class="my-auto py-72">
+          test
+        </div>
+        <div class="my-auto py-72">
+          test
+        </div>
+        <div class="my-auto py-72">
+          test
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
 
 
 </body>
