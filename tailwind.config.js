@@ -1,19 +1,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    colors: {
-      'pinklight': '#FFEFE3',
-      'orangedark': '#E25B01',
-      'orangelight': '#FF6600',
-      'portokal': '#FCA554',
-      'greendark': '#498248',
-    },
-    fontFamily: {
-      Inter: ['inter', 'sans-serif'],
-      ProzaLibre: ['ProzaLibre', 'sans-serif'],
-    },
     extend: {
-
+      colors: {
+        'pinklight': '#FFEFE3',
+        'orangedark': '#E25B01',
+        'orangelight': '#FF6600',
+        'portokal': '#FCA554',
+        'greendark': '#498248',
+      },
+      fontFamily: {
+        Inter: ['inter', 'sans-serif'],
+        ProzaLibre: ['Proza Libre', 'sans-serif'],
+      },
     },
     screens: {
       'sm': '640px',
