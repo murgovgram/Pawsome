@@ -472,6 +472,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.static{
+  position: static;
+}
+
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -498,6 +506,42 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .left-0{
   left: 0px;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
+.left-24{
+  left: 6rem;
+}
+
+.right-24{
+  right: 6rem;
+}
+
+.left-16{
+  left: 4rem;
+}
+
+.right-16{
+  right: 4rem;
+}
+
+.left-12{
+  left: 3rem;
+}
+
+.right-12{
+  right: 3rem;
 }
 
 .mx-auto{
@@ -534,6 +578,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -1.5rem;
 }
 
+.-mt-8{
+  margin-top: -2rem;
+}
+
+.-mt-10{
+  margin-top: -2.5rem;
+}
+
+.-mt-12{
+  margin-top: -3rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -562,6 +622,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-full{
+  height: 100%;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-80{
+  height: 20rem;
+}
+
 .w-7{
   width: 1.75rem;
 }
@@ -582,8 +654,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
+.w-56{
+  width: 14rem;
+}
+
+.w-72{
+  width: 18rem;
+}
+
+.w-60{
+  width: 15rem;
+}
+
+.w-36{
+  width: 9rem;
+}
+
 .max-w-screen-2xl{
   max-width: 1536px;
+}
+
+.max-w-screen-xl{
+  max-width: 1280px;
 }
 
 .translate-x-0{
@@ -629,8 +721,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-clip{
+  overflow: clip;
+}
+
+.overflow-scroll{
+  overflow: scroll;
+}
+
 .overflow-y-hidden{
   overflow-y: hidden;
+}
+
+.overflow-x-scroll{
+  overflow-x: scroll;
 }
 
 .rounded-md{
@@ -641,13 +745,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.5rem;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
 .border{
   border-width: 1px;
+}
+
+.border-4{
+  border-width: 4px;
 }
 
 .border-gray-100{
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-gray-100{
@@ -660,12 +777,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-orangelight{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 102 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/images\/wall-1\.png\'\)\]{
   background-image: url('./images/wall-1.png');
 }
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-6{
+  padding: 1.5rem;
 }
 
 .px-4{
@@ -738,6 +868,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 20rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
 .font-ProzaLibre{
   font-family: Proza Libre, sans-serif;
 }
@@ -766,12 +924,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-thin{
   font-weight: 100;
 }
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.leading-loose{
+  line-height: 2;
 }
 
 .text-orangelight{
@@ -782,6 +953,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-greendark{
   --tw-text-opacity: 1;
   color: rgb(73 130 72 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-md{
@@ -802,6 +978,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 768px){
   .md\:block{
     display: block;
@@ -813,6 +995,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:justify-center{
@@ -837,6 +1023,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-72{
     padding-top: 18rem;
     padding-bottom: 18rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
