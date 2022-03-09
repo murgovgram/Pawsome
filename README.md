@@ -1,0 +1,2 @@
+# Pawsome
+Full Theme Tailwindcss
