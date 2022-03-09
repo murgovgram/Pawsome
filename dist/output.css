@@ -930,6 +930,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
+
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -950,6 +955,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1280px){
   .xl\:mt-56{
     margin-top: 14rem;
+  }
+
+  .xl\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .xl\:mt-32{
+    margin-top: 8rem;
+  }
+
+  .xl\:mt-28{
+    margin-top: 7rem;
   }
 
   .xl\:block{
