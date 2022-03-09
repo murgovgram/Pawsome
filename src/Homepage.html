@@ -8,6 +8,7 @@
   <title>Homepage</title>
   <link rel="stylesheet" href="/dist/output.css">
   <script src="slider.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
 <body class="font-ProzaLibre">
 
@@ -63,49 +64,97 @@
   </div>
 
 
-  <div class="h-auto mt-24 xl:mt-56" style="background-image: url(images/wall-1.png);">
 
+  <!--Best Pages-->
+  <div class="h-auto px-8 mt-18 xl:mt-56" style="background-image: url(images/wall-1.png);">
     <h1
-      class="py-4 mx-auto -mt-10 text-4xl text-center bg-white border border-gray-100 rounded-lg shadow-xl w-72 text-greendark">
+      class="py-4 mx-auto text-4xl text-center bg-white border border-gray-200 rounded-lg shadow-xl w-72 text-greendark">
       Best Pages
     </h1>
-
-    <div class="px-4 mx-auto max-w-screen-2xl md:px-24">
-      <div class="grid py-20 my-auto lg:grid-cols-3 ">
-
-        <div class="relative p-6 mx-auto my-auto bg-white rounded-lg h-96 w-72">
-          <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg" src="images/dog1.png"
-            alt="">
-          <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
-            <p class="font-bold text-white text-md font-Inter">Read More</p>
-          </button>
+    <!--Slideshow-->
+    <div class="relative px-0 mx-auto lg:px-16 max-w-screen-2xl carousel">
+      <div class="relative w-full carousel-inner">
+        <!--Slide 1-->
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+          checked="checked">
+        <div class="absolute opacity-0 carousel-item">
+          <div class="grid px-0 py-20 my-auto lg:px-16 lg:grid-cols-3 ">
+            <div class="relative p-6 mx-auto my-auto bg-white rounded-lg h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog1.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+            <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog1.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+            <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog1.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
-          <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg" src="images/dog1.png"
-            alt="">
-          <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
-            <p class="font-bold text-white text-md font-Inter">Read More</p>
-          </button>
+        <!--Slide 2-->
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="absolute opacity-0 carousel-item">
+          <div class="grid px-0 py-20 my-auto lg:px-16 lg:grid-cols-3 ">
+            <div class="relative p-6 mx-auto my-auto bg-white rounded-lg h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog2.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+            <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog2.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+            <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
+              <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg"
+                src="images/dog2.png" alt="">
+              <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
+                <p class="font-bold text-white text-md font-Inter">Read More</p>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="relative hidden p-6 mx-auto my-auto bg-white rounded-lg lg:block h-96 w-72">
-          <img class="mx-auto -mt-12 overflow-hidden border-4 border-white rounded-full shadow-lg" src="images/dog1.png"
-            alt="">
-          <p class="mt-8 font-thin leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="absolute py-2 rounded-md left-12 right-12 bg-orangelight bottom-4">
-            <p class="font-bold text-white text-md font-Inter">Read More</p>
-          </button>
-        </div>
+        <!--Buttons for slider-->
 
+        <label for="carousel-1"
+          class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center bg-white rounded-full cursor-pointer text-greendark prev control-2 md:ml-10 hover:text-white hover:bg-orangelight">‹</label>
+        <label for="carousel-3"
+          class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center bg-white rounded-full cursor-pointer text-greendark next control-2 md:mr-10 hover:text-white hover:bg-orangelight">›</label>
+        <label for="carousel-1"
+          class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center bg-white rounded-full cursor-pointer text-greendark prev control-1 md:ml-10 hover:text-white hover:bg-orangelight">‹</label>
+        <label for="carousel-2"
+          class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center bg-white rounded-full cursor-pointer text-greendark next control-1 md:mr-10 hover:text-white hover:bg-orangelight">›</label>
       </div>
     </div>
-
+    <!--Slider End-->
   </div>
 
 
 
-
+  <div>
+    test
+  </div>
 
 
 
