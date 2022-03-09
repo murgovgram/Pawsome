@@ -16,6 +16,9 @@ module.exports = {
       backgroundImage: {
         'wall-1': "url('src/images/wall-1.png')",
       },
+      spacing: {
+        '424': '424px',
+      }
     },
     screens: {
       'sm': '640px',
